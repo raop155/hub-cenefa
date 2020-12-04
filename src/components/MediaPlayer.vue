@@ -7,7 +7,9 @@
       autoplay
       muted
       @ended="onEnd()"
-    >Your browser does not support HTML5 video.</video>
+    >
+      Your browser does not support HTML5 video.
+    </video>
   </div>
 </template>
 
@@ -20,7 +22,7 @@ export default {
       index: 0,
       playlist: [
         //require('@/assets/01 FADE.mp4'),
-        //require('@/assets/01.mp4'),
+        require('@/assets/01.mp4')
         //require('@/assets/01.mp4'),
         //require('@/assets/01.mp4'),
         //require('@/assets/01 FADE.mp4'),
@@ -29,8 +31,7 @@ export default {
         //require('@/assets/02.mp4'),
         //require('@/assets/02.mp4'),
         //require('@/assets/02 FADE.mp4')
-
-        require('@/assets/01 FULL.mp4')
+        // require('@/assets/01 FULL.mp4')
       ]
     };
   },
