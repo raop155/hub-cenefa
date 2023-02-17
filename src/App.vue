@@ -49,6 +49,7 @@ export default {
 html {
   background-color: #000;
   font-family: 'DIN_Light';
+  overflow: hidden;
 }
 
 a:hover {
